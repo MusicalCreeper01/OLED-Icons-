@@ -4,9 +4,10 @@ A library of icons for Sparkfun's OLED displays. Specifically created for use wi
 #Usage
 
 Include the icons header file at the top of your source file 
+
 `#include "icons.h"`
-Then draw a icon by passing the DrawIcon() funtion your instace of the OLED screen, the icon (Icon::<icon name>), and the x and y position.
-e.g `DrawIcon(oled, Icon::beacon, 0,0);`
+
+Then draw an icon by passing the DrawIcon() funtion your instace of the OLED screen, the icon (Icon::<icon name>), and the x and y position. e.g `DrawIcon(oled, Icon::beacon, 0,0);`
 
 All icons are at most 7 pixels high, so they work well inline with the default font in the SparkFun OLED libraries  
 
@@ -23,8 +24,9 @@ Icon:beacon     - A sort of wireless/cell tower beacon
 Icon::house     - A basic house
 Icon::chainlink - A chain link.. a useful link symbol as you can imagine 
 ```
+
 #Adding your own Icons
-To add you own icon, you need to add the icon data to the icon_types array, and the name in the same array index as the icon_types data in the Icon enum.
+To add you own icon, you need to add the icon data to the `icon_types` array, and the name of the icon in the `Icon` enum.
 
 The icons data is as follows:
 ```
