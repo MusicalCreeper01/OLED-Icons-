@@ -37,7 +37,8 @@ Rest of digits: All the icon data row by row from the top left
 #Custom Icon Example:
 
 The icon for a 7x7 diagonal line would look something like this:
-```1000000
+```
+1000000
 0100000
 0010000
 0001000
